@@ -54,7 +54,7 @@ class SinglyLinkedList:
                 curr = curr.next
         return False
 
-    def getIndexOf(self, item):
+    def get_index_of(self, item):
         count = 0
         temp = self.head
         while temp.item != item:
